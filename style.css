@@ -1,0 +1,37 @@
+/* universal styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* display properties styles */
+.box {
+  border: 3px solid lawngreen;
+  display: inline;
+  padding: 30px;
+}
+
+span {
+  border: 3px solid navy;
+  color: crimson;
+  display: inline-block;
+  width: 400px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+/* display none and visibility hidden properties */
+#details{
+    color: violet;
+}
+.hidden {
+  visibility: hidden;
+  height: 123px;
+  width: 123px;
+}
+.none {
+  display: none;
+  height: 123px;
+  width: 123px;
+}
